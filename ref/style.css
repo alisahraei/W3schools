@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+}
+body{
+  font-family: "Lato", sans-serif;
+  height: 512px;
+}
+div.nav2{
+  position: fixed;
+  width: 110px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+nav.nav2{
+  width: 110px;
+  background-color: #111;
+  padding-top: 32px;
+  height: 66.1em;
+  position: fixed;
+  float: left;
+  margin-top: -15px;
+}
+nav.nav2 a{
+  display: block;
+  color: #818181;
+  padding: 1px 8px 4px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.5;
+  text-decoration-style: solid;
+}
+nav.nav2 a:hover{
+  color: white;
+}
+div.main{
+  margin-left: 117px;
+  padding-left: 8px;
+}
+h2.nav2{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px 0 15px 0;
+}
+p.nav2{
+  font-size: 16px;
+  line-height: 1.15;
+}
+.p1{
+  margin-top: 16px;
+}
+.p2{
+  margin-top: 16px;
+}
+.p3{
+  margin-top: 16px;
+}
+.p4{
+  margin-top: 16px;
+}
+.a2{
+  margin-top: 1px;
+}
+.a3{
+  margin-top: 1px;
+}
+.a4{
+  margin-top: 1px;
+}
+div.sdw9{
+  max-width: 450px;
+}
+@media screen and (max-height: 450px) {
+  .nav2 {padding-top: 0px;}
+  nav.nav2 a {font-size: 18px;}
+}
+@media screen and (max-width: 450px) {
+  nav.nav2 a {font-size: 18px;}
+}
